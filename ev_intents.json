@@ -1,0 +1,586 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there, How can I help you with EV's",
+            "Hello, ",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+
+        
+    },
+    {
+        "tag": "well_being",
+        "patterns": [
+            "How are you",
+            "What's up",
+            "how are you",
+            "How old are you",
+            "how you doing?",
+            "what are you doing?"
+        ],
+        "responses": [
+            "Doing good!",
+            "I'm doing great, what about you?",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+
+        
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye","tata",
+            "bye bye",
+            "by",
+            "see you",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care",
+            "See ya !!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help",
+            "Feel free you ask anything","ask me, if you need more info"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot, who can guide you about Electric Vehicles",
+            "My purpose is to guide you about Electric Vehicle and clear your Doubts",
+            "I can answer questions and provide assistance about the Electric Vehicle",
+            "I can give all the Information about EV, Myths vs Reality, clear Doubts, Compare EV models"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with? Best EV's, Government subsidy, affordable EV, Comparison Between EV's, EV Models",
+            "Ask me anything about EV's and Doubts, Compare models, EV suggestions ",
+            "How can I assist you with the Modern EV's ?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "How old are you",
+            "What's your age"
+        ],
+        "responses": [
+            "I don't have an age. I'm a chatbot who guide you about Electric Vehicles.",
+            "I was made by a person named Shantanu for guiding people with EV.",
+            "Age is just a number for me."
+        ]
+    },
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather",
+            "How the weather today"
+        ],
+        "responses": [
+            "I'm sorry, I cannot provide real-time weather information.",
+            "You can check the weather on a weather app or website."
+        ]
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "what is your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+    {
+        "tag": "favorite_color",
+        "patterns": [
+            "What's your favorite color",
+            "Do you like any color"
+        ],
+        "responses": [
+            "I'm a chatbot, so I don't have a favorite color.",
+            "As an AI, I don't have preferences like humans do.","When it comes to Sports EV I like the Black but I would also prefer the White"
+        ]
+    },
+    {
+        "tag": "hobby",
+        "patterns": [
+            "what do you like",
+            "what do you like to do ",
+            "What do you do for fun",
+            "Do you have any hobbies"
+        ],
+        "responses": [
+            "I'm here to guide you with EV's, that's my hobby.",
+            "I'm always ready to help you with EV's, so that's my favorite thing to do!"
+        ]
+    },
+    {
+        "tag": "time",
+        "patterns": [
+            "What's the time",
+            "Can you tell me the time"
+        ],
+        "responses": [
+            "I'm sorry, but I don't have access to real-time information like the current time.",
+            "You can check the time on your device or use a clock."
+        ]
+    },
+    {
+        "tag": "joke",
+        "patterns": [
+            "Tell me a joke",
+            "Do you know any jokes",
+            "Make me laugh",
+            "you are so serious"
+        ],
+        "responses": [
+            "Why did the EV win the race against the petrol car? Because it didn’t need to stop for a 'gas'-sipping break!",
+            "What do you call an EV that’s run out of charge? A 'static' vehicle!",
+            "Why do EVs never get into arguments with petrol cars? Because they know how to stay 'neutral' in every situation! "
+        ]
+    },
+    {
+            "tag": "movies",
+            "patterns": [
+                "What is your favorite movie",
+                "Recommend me a movie",
+                "Tell me about movies",
+                "Suggest me a movie about ev cars",
+                "movie suggestion",
+                "suggest me a movie"
+            ],
+            "responses": [
+                "If you love cars and racing, you might enjoy movies like 'Fast & Furious' series, 'Ford v Ferrari,' or 'Rush.'",
+                "Movies with Futuristic Cars, Robots, and Saving the World are 'I, Robot (2004)', 'Transformers (2007–present)', 'Minority Report (2002)', 'WALL-E (2008)'",
+                "'Cars' (animated) is a great pick for car lovers, and it's fun for all ages!"
+            ]        
+    },
+    {
+        "tag": "technology_ev",
+        "patterns": [
+            "What's the latest in EV technology?","advance technology",
+            "tell me about advance features","what the advance features","advance ev","features",
+            "What's new in the world of EVs","news about ev","future of ev","latest ev news",
+            "What are the recent innovations in electric cars?",
+            "How is EV technology evolving?"
+        ],
+        "responses": [
+            "Electric vehicle technology is advancing rapidly with improvements in battery efficiency, fast charging, and extended ranges.",
+            "Recent innovations in EVs include solid-state batteries, vehicle-to-grid technology, and AI-based driving assistance.",
+            "Companies are focusing on sustainable materials, better charging infrastructure, and autonomous driving for EVs.",
+            "Check out the latest EV models with cutting-edge features like enhanced safety systems, over-the-air updates, and eco-friendly interiors!"
+        ]
+    },
+    {
+        "tag": "compliment",
+        "patterns": [
+            "You are awesome","you are good",
+            "You are great",
+            "I like you","i love you"
+        ],
+        "responses": [
+            "Thank you! I'm just a program, but I'm here to assist and make your experience better.",
+            "I'm glad you think so! My purpose is to help and provide useful information."
+        ]
+    },
+    {
+        "tag": "meaning_of_life",
+        "patterns": [
+            "What is the meaning of life",
+            "Why are we here",
+            "What is the purpose of life",
+            "How can technology give life meaning",
+            "What role does sustainability play in life"
+        ],
+        "responses": [
+            "The meaning of life can include working towards a better future. Embracing sustainable technology helps us protect the planet for future generations.",
+            "Sustainability and technology give purpose by enabling us to create innovative solutions to global challenges, like reducing pollution and conserving resources.",
+            "Many find meaning in contributing to a greener planet through advancements in renewable energy, electric vehicles, and eco-friendly practices.",
+            "By adopting sustainable technology, we ensure that our actions today positively impact the world, fostering a balance between growth and preservation."
+        ]
+    },
+    {
+        "tag": "sports_ev",
+        "patterns": [
+            "Tell me about EV racing",
+            "What are electric vehicle sports?",
+            "Are there any sports for electric cars?",
+            "What's Formula E all about?",
+            "Can EVs compete in sports?",
+            "Do electric cars have racing leagues?"
+        ],
+        "responses": [
+            "EV racing is an exciting and growing sport! Events like Formula E showcase the speed and performance of electric cars in competitive racing.",
+            "Electric vehicle sports are all about pushing EV technology to its limits, with races focusing on speed, efficiency, and innovation.",
+            "Yes, EVs have their own racing leagues like Formula E and Extreme E, which combine thrilling races with a strong message of sustainability.",
+            "Formula E is a global championship where fully electric cars race in some of the world's most iconic cities, highlighting the future of motorsport.",
+            "With advancements in EV technology, electric cars are proving they can be just as competitive and thrilling as traditional racing vehicles!"
+        ]
+    },
+    {
+        "tag": "ev_travel",
+        "patterns": [
+            "Can I use an EV for long-distance travel?",
+            "Are EVs good for off-roading?",
+            "Can I take an EV to the desert?",
+            "EVs near the sea shore?","where can we travel with an ev",
+            "can we drive EV on race tracks?",
+            "Where can I travel with an EV?",
+            "Are EVs suitable for different terrains?",
+            "What are the best travel destinations for EVs?"
+        ],
+        "responses": [
+            "EVs are great for long-distance travel, especially with the growing charging infrastructure. Just plan your stops for charging, and you're good to go!",
+            "Many EVs are built for off-roading too! Models like the Rivian R1T and Tata Nexon EV have excellent capabilities for rugged terrains.",
+            "Traveling to the desert? Make sure your EV is fully charged and plan your trip around available charging points. EVs perform well in such conditions with proper preparation.",
+            "Sea shores are a breeze for EVs! They run smoothly on flat terrains, but watch out for sand and salty air to keep your EV in top condition.",
+            "EVs are a thrilling choice for race tracks! Their instant torque provides impressive acceleration, making them competitive against traditional cars.",
+            "With the right planning, EVs are suitable for various terrains and destinations. Explore mountains, beaches, or even urban escapes while being eco-friendly!"
+        ]
+    },
+    {
+        "tag": "ev_career",
+        "patterns": [
+            "What are the career options in the EV sector?","career in ev sector","jobs in ev sector industry",
+            "How can I get a job in electric vehicle companies?","jobs opportunities in ev sector industry",
+            "What skills needed to work in the EV industry?","What skills required to work in the EV industry?",
+            "Tell me about career growth in the electric vehicle field.",
+            "Are there good opportunities in EV technology?",
+            "How can I start a career in electric mobility?",
+            "What are the best jobs in the EV sector?",
+            "Can you suggest some roles in EV development?","career feilds in ev indusrty sector technology"
+        ],
+        "responses": [
+            "The EV sector offers exciting career opportunities, including roles in battery technology, vehicle design, charging infrastructure, and software development.",
+            "To get a job in the EV industry, focus on skills like electrical engineering, data analysis, software development, and knowledge of renewable energy systems.",
+            "Some of the top roles in the EV sector are EV design engineer, battery systems specialist, charging infrastructure developer, and sustainability consultant.",
+            "The EV industry is growing rapidly, providing opportunities for career growth in research, development, manufacturing, and sales.",
+            "Starting a career in electric mobility could involve learning about EV systems, pursuing certifications in renewable energy, or gaining experience in automotive technology."
+        ]
+    },
+    {
+        "tag": "history_of_ev",
+        "patterns": [
+            "Tell me about the history of electric vehicles","history of ev industry sector","origin of ev",
+            "When were electric vehicles first introduced?","first ev india","first ev model",
+            "What is the origin of electric cars?","origin of electric cars?",
+            "How did electric vehicles evolve over time?","evolution of ev electric vehicle",
+            "What was the first electric car?",
+            "Who invented the electric vehicle?","first electric car",
+            "What were the major milestones in the development of EVs?"
+        ],
+        "responses": [
+            "Electric vehicles (EVs) have a long and fascinating history. The first electric car was created in the 19th century, with early models powered by non-rechargeable batteries.",
+            "The first known electric vehicles were created in the early 1800s, but they became more widely recognized in the 1830s when people like Robert Anderson began experimenting with electric power.",
+            "The first commercial electric car was developed by William Morrison in 1891 in the United States. His car was a six-passenger vehicle powered by a series of non-rechargeable batteries.",
+            "The concept of the electric vehicle dates back to the early 1800s, but major advancements in the 1870s and 1880s were seen with the development of better batteries and more efficient motors.",
+            "One of the major milestones in EV history was the development of the first practical electric car in the late 19th century. Another key event was the launch of the Tesla Roadster in 2008, which helped redefine the electric vehicle industry.",
+            "In the early days, electric cars were considered more comfortable and easier to drive than their gasoline counterparts. However, the lack of charging infrastructure and limited battery capacity were some of the major challenges they faced."
+        ]
+    },{
+        "tag": "ev_travel_tips",
+        "patterns": [
+            "tips for traveling with an electric vehicle?","tips for traveling with ev","taveling plan",
+            "plan a road trip with an electric car?","plan a road trip with ev","travel plan",
+            "things to remember before traveling with EV on a long trip?","ev for long trip",
+            "How to manage charging stops during a road trip in an electric vehicle?",
+            "travel tips for electric car on highways?","trevel tips","travel tips while driving ev",
+            "How can I make a long journey comfortable with my electric car?",
+            "things to remember before going on a trip with an electric vehicle?"
+        ],
+        "responses": [
+            "Traveling with an electric vehicle requires planning your charging stops ahead of time. Make sure to use apps like PlugShare or ChargePoint to find nearby charging stations.",
+            "Before starting a road trip with your electric car, ensure you know your car's range and have a list of charging stations along your route. It's also a good idea to bring along a portable charger if possible.",
+            "When planning a long trip with an EV, take into account the distance between charging stations, weather conditions that might affect battery life, and the availability of fast-charging stations to minimize downtime.",
+            "You should plan your route with regular charging breaks. Apps that provide real-time data on charging station availability can be lifesavers. Try to stop for charging during meal breaks or sightseeing stops to save time.",
+            "Highway driving with an electric car can be efficient, but remember to monitor your speed, as it can affect battery range. Try to maintain a steady speed and avoid rapid acceleration to maximize efficiency.",
+            "There are several apps designed to help EV drivers, such as A Better Route Planner (ABRP) and PlugShare. These apps help you find charging stations and plan routes that suit your vehicle's battery range.",
+            "To make a long journey more comfortable with your EV, bring along snacks, water, and entertainment for charging breaks. Some EVs offer features like heated or cooled seats, so you can stay comfortable during long stops.",
+            "When traveling with an electric vehicle, pack essentials like charging cables, an emergency kit, and a backup power source. Also, don't forget any necessary adapters for different charging stations."
+        ]
+    },
+    {
+        "tag": "cybersecurity",
+        "patterns": [
+            "Tell me about cybersecurity",
+            "How to protect against cyber threats",
+            "Cybersecurity best practices"
+        ],
+        "responses": [
+            "Cybersecurity involves protecting computers, networks, and data from unauthorized access, attacks, and damage.",
+            "Best practices include using strong passwords, keeping software updated, avoiding suspicious links, and using antivirus software."
+        ]
+    },{
+        "tag": "ev_futuristic_technology",
+        "patterns": [
+            "What is the future of electric vehicles?","future of ev",
+            "How will EVs evolve in the next 50 years?","ev in next years",
+            "What innovations are coming to electric cars?",
+            "Will EVs be fully autonomous in the future?",
+            "charging technology EVs?","self driven ev","self driven cars","automatic driving","automatic cars",
+            "What role will AI play in the future of electric vehicles?",
+            "Will electric cars be able to drive themselves soon?",
+            "What new features can we expect in future EVs?","new features in ev","new features in electric vehicle",
+            "will battery improve for electric cars?"
+        ],
+        "responses": [
+            "The future of electric vehicles is exciting, with advancements expected in autonomous driving, AI integration, and ultra-fast charging technology.",
+            "In the next 50 years, EVs could have autonomous capabilities, smart systems for route optimization, and batteries that charge in minutes, all contributing to an eco-friendly driving experience.",
+            "Next-gen innovations for electric cars include longer-lasting batteries, wireless charging, and fully autonomous driving features that may transform how we travel.",
+            "Yes, many experts believe that electric vehicles will be fully autonomous in the coming decades, with self-driving cars becoming the norm for both personal and public transportation.",
+            "Charging technology for EVs is expected to improve significantly, with ultra-fast charging stations that can recharge your car in minutes and wireless charging options becoming widely available.",
+            "AI will play a huge role in the future of electric vehicles, optimizing driving efficiency, enhancing battery life, and enabling fully autonomous driving systems.",
+            "Autonomous driving features in EVs are expected to become more advanced, with cars potentially being able to drive without any human intervention in certain conditions, making travel safer and more convenient.",
+            "Future EVs will likely feature advanced AI for personalized driving experiences, enhanced interior designs with augmented reality, and self-healing materials to reduce wear and tear on vehicles.",
+            "Battery technology will see major improvements, with solid-state batteries offering higher capacity, faster charging, and longer lifespans, making EVs even more efficient and convenient."
+        ]
+    },{
+        "tag": "ev_emerging_technologies",
+        "patterns": [
+            "What's new in EV tech?",
+            "Any new tech in electric vehicles?","new technology in ev",
+            "What are the latest innovations in electric cars?","lastest ennovations in th ev",
+            "How is EV technology changing?"
+        ],
+        "responses": [
+            "Electric vehicles are seeing innovations like ultra-fast charging, solid-state batteries, and AI-driven autonomous driving systems.",
+            "Emerging tech in EVs includes wireless charging, better battery storage solutions, and advanced vehicle-to-grid integration for more efficient energy use.",
+            "Next-gen EVs are expected to have features like longer battery life, autonomous driving, and faster charging times, transforming how we drive and use energy.",
+            "The future of electric vehicles looks bright, with advancements in AI, battery technology, and autonomous driving leading the way to smarter, faster, and more efficient cars."
+        ]
+    },
+    {
+        "tag": "ev_sustainability",
+        "patterns": [
+            "are electric cars eco-friendly?","eco friendly ev",
+            "Why are electric vehicles considered sustainable?","sustainable ev",
+            "How do EVs help the environment?",
+            "Are electric cars good for the planet?",
+            "What are the benefits of EVs?","benefits of ev",
+            "How do electric cars reduce carbon footprints?","ev reduce carbon footprint"
+        ],
+        "responses": [
+            "Electric vehicles produce zero tailpipe emissions, which helps reduce air pollution and lowers overall carbon footprints compared to conventional vehicles.",
+            "EVs are more sustainable as they rely on cleaner energy sources, reducing dependence on fossil fuels and contributing to a reduction in greenhouse gas emissions.",
+            "Electric cars are eco-friendly because they use electricity, which can be sourced from renewable energy, and they have no direct emissions like gasoline-powered vehicles.",
+            "By using renewable energy sources for charging and reducing dependency on fossil fuels, electric vehicles play a significant role in reducing environmental impact.",
+            "EVs help the environment by lowering carbon emissions and promoting the use of green energy, making transportation cleaner and more sustainable for the future."
+        ]
+    },{
+        "tag": "ev_maintenance",
+        "patterns": [
+            "How do I maintain my electric car?","how to maintain ev",
+            "Do electric vehicles need oil changes?","do ev need oiling",
+            "How to check tire pressure in an EV?","how to save battery",
+            "What should I do if my EV battery is low?","how to maintain battery",
+            "How often should I service my electric car?","how many times ev needs an servecings"
+        ],
+        "responses": [
+            "EV maintenance is simple—check tire pressure regularly, maintain the battery, and ensure the brakes are working efficiently.",
+            "Unlike gasoline cars, electric vehicles don't need oil changes, but regular checks on the battery and brakes are essential.",
+            "To check tire pressure in your EV, just like any car, use a pressure gauge and ensure the tires are properly inflated for safety and efficiency.",
+            "If your EV battery is low, charge it as soon as possible. Many EVs come with a range estimator to help you plan your charging needs.",
+            "You should service your electric car about once a year or every 12,000 miles, focusing on the battery, brakes, and tires."
+        ]
+    },
+    {
+        "tag": "ev_eco_transportation",
+        "patterns": [
+            "Are electric cars eco-friendly?",
+            "How do electric vehicles reduce pollution?",
+            "Why are EVs better for the environment?",
+            "Can EVs help fight climate change?",
+            "What makes electric cars sustainable?"
+        ],
+        "responses": [
+            "Yes, electric cars are eco-friendly as they produce zero tailpipe emissions and can be powered by renewable energy sources.",
+            "EVs reduce pollution by not emitting harmful gases like gasoline vehicles, which helps improve air quality and fight climate change.",
+            "Electric vehicles are better for the environment because they use clean energy and reduce dependence on fossil fuels, leading to fewer carbon emissions.",
+            "EVs contribute to fighting climate change by reducing greenhouse gas emissions and promoting the use of green energy for transportation.",
+            "Electric cars are sustainable because they operate on electricity, which can be sourced from renewable energy, reducing the overall environmental impact."
+        ]
+    },
+    {
+        "tag": "ev_energy_consumption",
+        "patterns": [
+            "How to reduce energy consumption with an electric car?","how to reduce",
+            "Tips to save energy while driving an EV","does ev consume electricity",
+            "Can EVs lower my energy bills?","ev get electricity bills",
+            "How do I maximize my EV's efficiency?","how can i save more money",
+            "How can I drive my EV more efficiently?"
+        ],
+        "responses": [
+            "To reduce energy consumption with an EV, drive efficiently by avoiding rapid acceleration, maintaining a steady speed, and using regenerative braking.",
+            "To save energy while driving, avoid high speeds, use eco-driving modes if available, and keep your EV’s tires properly inflated.",
+            "Yes, using an electric car can lower your energy bills, especially if you charge at home using renewable energy or during off-peak hours.",
+            "Maximize your EV's efficiency by keeping your battery charged between 20-80%, driving smoothly, and minimizing the use of accessories like air conditioning.",
+            "To drive your EV efficiently, avoid hard braking, plan your routes to minimize energy consumption, and use features like regenerative braking to recharge the battery."
+        ]
+    },    
+    {
+          "tag": "ev_general_info",
+          "patterns": [
+            "What is an electric vehicle?",
+            "How do EVs work?",
+            "What are the advantages of electric cars?"
+          ],
+          "responses": [
+            "An electric vehicle (EV) is powered by electricity stored in batteries instead of conventional fuel like petrol or diesel.",
+            "EVs work by using electric motors, which are powered by electricity stored in batteries. This makes them quieter and more efficient than traditional vehicles.",
+            "Some advantages of EVs include lower running costs, reduced emissions, and quieter operation."
+          ]
+    },
+    {
+          "tag": "ev_cost",
+          "patterns": [
+            "Are EVs expensive?","how much a ev cost","cost of ev","cost of electric car",
+            "What is the average price of an EV in India?",
+            "Are there subsidies for EVs in India?"
+          ],
+          "responses": [
+            "EVs can have higher upfront costs but are cheaper to run in the long term due to lower fuel and maintenance costs.",
+            "The average cost of an EV in India ranges from ₹10 lakhs to ₹25 lakhs, depending on the model and features.",
+            "Yes, the Indian government offers subsidies under the FAME India scheme to promote EV adoption."
+          ]
+    },
+    {
+          "tag": "ev_charging",
+          "patterns": [
+            "How long does it take to charge an EV?",
+            "What are the types of EV chargers available?",
+            "Where can I find charging stations near me?",
+            "How do I charge my EV at home?"
+          ],
+          "responses": [
+            "Charging times vary based on the charger type. Fast chargers can charge an EV up to 80% in 30-60 minutes, while home chargers may take 6-8 hours.",
+            "The main types of EV chargers are AC (slow) and DC (fast) chargers. DC chargers are typically faster but less common.",
+            "You can find nearby EV charging stations using apps like PlugShare, Tata Power EZ Charge, or Google Maps.",
+            "Home charging can be done using a standard outlet or by installing a dedicated EV charger for faster and safer charging."
+          ]
+    },
+    {
+          "tag": "ev_range",
+          "patterns": [
+            "What is the average range of an EV?",
+            "How far can an EV travel on a single charge?",
+            "Do EVs have good range for Indian roads?"
+          ],
+          "responses": [
+            "The range of an EV varies by model. Most EVs in India offer a range of 200-450 km on a single charge.",
+            "Models like the Tata Nexon EV Max and MG ZS EV provide extended ranges suitable for Indian roads.",
+            "With proper planning and available charging infrastructure, EVs can handle both city and long-distance travel efficiently."
+          ]
+    },
+    {
+          "tag": "ev_maintenance",
+          "patterns": [
+            "Is maintaining an EV cheaper?",
+            "What are the maintenance requirements for EVs?",
+            "Do EVs need frequent servicing?"
+          ],
+          "responses": [
+            "Yes, maintaining an EV is cheaper as they have fewer moving parts and no need for oil changes.",
+            "EV maintenance includes checking battery health, tire rotation, and ensuring the electric motor and other systems are functioning properly.",
+            "EVs require less frequent servicing compared to petrol or diesel cars."
+          ]
+    },
+    {
+          "tag": "ev_environment",
+          "patterns": [
+            "Are EVs environmentally friendly?",
+            "Do EVs reduce pollution?",
+            "How does charging EVs impact the environment?"
+          ],
+          "responses": [
+            "EVs are environmentally friendly as they produce zero tailpipe emissions, reducing air pollution.",
+            "While the electricity used for charging may come from non-renewable sources, the overall carbon footprint of EVs is still lower than conventional vehicles.",
+            "Using renewable energy sources for charging can further enhance the environmental benefits of EVs."
+          ]
+    },
+    {
+          "tag": "ev_comparison",
+          "patterns": [
+            "How do EVs compare to petrol cars?",
+            "Are EVs good for long drives?",
+            "Which is better for performance, EVs or petrol cars?"
+          ],
+          "responses": [
+            "EVs offer instant torque, making them quick and responsive compared to petrol cars. However, their range depends on the battery capacity.",
+            "For long drives, EVs may require planning to access charging stations, but newer models offer extended ranges.",
+            "Performance-wise, EVs are often smoother and quieter, with competitive acceleration compared to petrol cars."
+          ]
+    },
+    {
+          "tag": "ev_myths",
+          "patterns": [
+            "Are EVs too slow?",
+            "Can EVs handle rough terrain?",
+            "Do EV batteries have a short life?",
+            "Are EVs only for city use?"
+          ],
+          "responses": [
+            "Modern EVs are not slow; they often accelerate faster than petrol cars due to instant torque.",
+            "Some EVs, like the Tata Nexon EV, are built to handle rough terrain and are suitable for Indian roads.",
+            "EV batteries are designed to last several years, with most manufacturers offering warranties of 8 years or more.",
+            "EVs are suitable for both city and highway driving, with models designed for a variety of use cases."
+          ]
+    },
+    {
+          "tag": "ev_models_india",
+          "patterns": [
+            "What are the top EV models in India?",
+            "Compare Tata Nexon EV and MG ZS EV.",
+            "Which EV is affordable in India?"
+          ],
+          "responses": [
+            "Top EV models in India include Tata Nexon EV, MG ZS EV, Hyundai Kona, and Mahindra XUV400.",
+            "Tata Nexon EV offers better affordability and compact size, while MG ZS EV provides a larger battery and extended range.",
+            "For budget-conscious buyers, the Tata Nexon EV is an excellent choice."
+          ]
+    }
+      
+]
