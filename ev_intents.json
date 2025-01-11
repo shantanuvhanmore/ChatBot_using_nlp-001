@@ -203,10 +203,9 @@
         "tag": "technology_ev",
         "patterns": [
             "What's the latest in EV technology?","advance technology",
-            "tell me about advance features","what the advance features","advance ev","features",
-            "What's new in the world of EVs","news about ev","future of ev","latest ev news",
+            "tell me about advance features","what the advance features","advance ev","features","news about ev","future of ev","latest ev news",
             "What are the recent innovations in electric cars?",
-            "How is EV technology evolving?"
+            "evolution in electric vehicle","evolution in ev","evolution of ev"
         ],
         "responses": [
             "Electric vehicle technology is advancing rapidly with improvements in battery efficiency, fast charging, and extended ranges.",
@@ -246,11 +245,11 @@
     {
         "tag": "sports_ev",
         "patterns": [
-            "Tell me about EV racing",
-            "What are electric vehicle sports?",
+            "Tell me about EV racing","sports electric car","electric sports car",
+            "What are electric vehicle sports?","sports ev",
             "Are there any sports for electric cars?",
-            "What's Formula E all about?",
-            "Can EVs compete in sports?",
+            "ev vs sports car","sports car vs ev",
+            "Can EV compete in sports?",
             "Do electric cars have racing leagues?"
         ],
         "responses": [
@@ -264,8 +263,8 @@
     {
         "tag": "ev_travel",
         "patterns": [
-            "Can I use an EV for long-distance travel?",
-            "Are EVs good for off-roading?",
+            "ev for long distance travel?",
+            "Are EVs good for off roading?",
             "Can I take an EV to the desert?",
             "EVs near the sea shore?","where can we travel with an ev",
             "can we drive EV on race tracks?",
@@ -305,13 +304,12 @@
     {
         "tag": "history_of_ev",
         "patterns": [
-            "Tell me about the history of electric vehicles","history of ev industry sector","origin of ev",
-            "When were electric vehicles first introduced?","first ev india","first ev model",
-            "What is the origin of electric cars?","origin of electric cars?",
+            "history of electric vehicles","history of ev industry sector","origin of ev",
+            "first ev","first electric vehicle","first electric car","first ev india","first ev model",
+            "what is the origin of electric cars?","origin of electric cars?",
             "How did electric vehicles evolve over time?","evolution of ev electric vehicle",
             "What was the first electric car?",
-            "Who invented the electric vehicle?","first electric car",
-            "What were the major milestones in the development of EVs?"
+            "Who invented the electric vehicle?","first electric car"
         ],
         "responses": [
             "Electric vehicles (EVs) have a long and fascinating history. The first electric car was created in the 19th century, with early models powered by non-rechargeable batteries.",
@@ -326,10 +324,9 @@
         "patterns": [
             "tips for traveling with an electric vehicle?","tips for traveling with ev","taveling plan",
             "plan a road trip with an electric car?","plan a road trip with ev","travel plan",
-            "things to remember before traveling with EV on a long trip?","ev for long trip",
+            "things to remember before traveling with EV on a long trip?","ev for long trip","plan a trip",
             "How to manage charging stops during a road trip in an electric vehicle?",
             "travel tips for electric car on highways?","trevel tips","travel tips while driving ev",
-            "How can I make a long journey comfortable with my electric car?",
             "things to remember before going on a trip with an electric vehicle?"
         ],
         "responses": [
@@ -357,9 +354,9 @@
     },{
         "tag": "ev_futuristic_technology",
         "patterns": [
-            "What is the future of electric vehicles?","future of ev",
+            "What is the future of electric vehicles?","future of ev","future of electric vehicle",
             "How will EVs evolve in the next 50 years?","ev in next years",
-            "What innovations are coming to electric cars?",
+            "What innovations are coming to electric cars?","new technology in ev","new technology in electric vehicle",
             "Will EVs be fully autonomous in the future?",
             "charging technology EVs?","self driven ev","self driven cars","automatic driving","automatic cars",
             "What role will AI play in the future of electric vehicles?",
@@ -398,7 +395,8 @@
         "patterns": [
             "are electric cars eco-friendly?","eco friendly ev",
             "Why are electric vehicles considered sustainable?","sustainable ev",
-            "How do EVs help the environment?",
+            "How do EVs help the environment?","eco friendly car",
+            "eco friendly electric vehicle","eco friendly electric car","eco friendly ev",
             "Are electric cars good for the planet?",
             "What are the benefits of EVs?","benefits of ev",
             "How do electric cars reduce carbon footprints?","ev reduce carbon footprint"
@@ -430,11 +428,10 @@
     {
         "tag": "ev_eco_transportation",
         "patterns": [
-            "Are electric cars eco-friendly?",
             "How do electric vehicles reduce pollution?",
             "Why are EVs better for the environment?",
             "Can EVs help fight climate change?",
-            "What makes electric cars sustainable?"
+            "What makes electric cars sustainable?","climate change","climate change"
         ],
         "responses": [
             "Yes, electric cars are eco-friendly as they produce zero tailpipe emissions and can be powered by renewable energy sources.",
@@ -448,9 +445,9 @@
         "tag": "ev_energy_consumption",
         "patterns": [
             "How to reduce energy consumption with an electric car?","how to reduce",
-            "Tips to save energy while driving an EV","does ev consume electricity",
-            "Can EVs lower my energy bills?","ev get electricity bills",
-            "How do I maximize my EV's efficiency?","how can i save more money",
+            "Tips to save energy while driving an EV","does ev consume electricity","does ev increses electric bill",
+            "Can EVs reduce my energy bills?","ev get electricity bills","electric car bills","electricity bills",
+            "How to increase efficiency","how can i save more money",
             "How can I drive my EV more efficiently?"
         ],
         "responses": [
@@ -464,8 +461,8 @@
     {
           "tag": "ev_general_info",
           "patterns": [
-            "What is an electric vehicle?",
-            "How do EVs work?",
+            "What is an electric vehicle?","advantages of ev","why to buy an ev","why i should buy an ev","why we should buy ev","why we should buy electric vehicle","why we should buy electric car",
+            "How do EVs work?","why to buy electric cars","why i should buy electric car","why i should buy an electric vehicle","why i should buy an electric car",
             "What are the advantages of electric cars?"
           ],
           "responses": [
@@ -504,9 +501,9 @@
     },
     {
           "tag": "ev_range",
-          "patterns": [
-            "What is the average range of an EV?",
-            "How far can an EV travel on a single charge?",
+          "patterns": ["average range of an ev","average range of an electric vehicle","average range of an electric car",
+            "What is the average range of an EV?","minimum range of an ev","minimum range of an electric vehicle","maximum range of an electric car",
+            "How far can an EV travel on a single charge?","average range of an ev in india","average range of an electric vehicle in india","average range of an electric car in india",
             "Do EVs have good range for Indian roads?"
           ],
           "responses": [
@@ -518,7 +515,7 @@
     {
           "tag": "ev_maintenance",
           "patterns": [
-            "Is maintaining an EV cheaper?",
+            "Is maintaining an EV cheaper?","maintenance of ev","maintenance of electric car","maintenance of electric vehicle",
             "What are the maintenance requirements for EVs?",
             "Do EVs need frequent servicing?"
           ],
@@ -544,9 +541,9 @@
     {
           "tag": "ev_comparison",
           "patterns": [
-            "How do EVs compare to petrol cars?",
-            "Are EVs good for long drives?",
-            "Which is better for performance, EVs or petrol cars?"
+            "How do EVs compare to petrol cars?","petrol vs ev","ev vs petrol","petrol cars vs electric cars","electric cars vs petrol cars","are electric cars better then petrol cars","are petrol cars better then electric cars",
+            "Are EVs good for long drives?","which is better petrol or electric","which is better electric or petrol",
+            "Which is better for performance EV or petrol car"
           ],
           "responses": [
             "EVs offer instant torque, making them quick and responsive compared to petrol cars. However, their range depends on the battery capacity.",
@@ -581,6 +578,448 @@
             "Tata Nexon EV offers better affordability and compact size, while MG ZS EV provides a larger battery and extended range.",
             "For budget-conscious buyers, the Tata Nexon EV is an excellent choice."
           ]
-    }
+    },
+    {
+        "tag": "tesla_vs_nissan",
+        "patterns": [
+            "Compare Tesla Model 3 and Nissan Leaf","leaf vs model 3","compare nissan leaf and tesla model 3","nissan leaf vs tesla model 3",
+            "which is better Tesla Model 3 vs Nissan Leaf?",
+            "Model 3 vs Leaf","tesla model 3 vs nissan leaf","tesla vs nissan"
+        ],
+        "responses": [
+            "The Tesla Model 3 offers a longer range (~430-570 km) and faster acceleration compared to the Nissan Leaf (~240-360 km). However, the Nissan Leaf is more affordable and has a proven reliability record."
+        ]
+    },
+    {
+        "tag": "kona_vs_ev6",
+        "patterns": [
+            "Which is better Hyundai Kona Electric or Kia EV6","Which is better Kia EV6 or Hyundai Kona Electric",
+            "Hyundai Kona vs Kia EV6","Kia EV6 vs Hyundai Kona",
+            "Kona vs EV6","ev6 vs kona"
+        ],
+        "responses": [
+            "The Hyundai Kona Electric provides a range of ~400-480 km, while the Kia EV6 offers ~480-500 km. Both are reliable, but the EV6 boasts a more modern design and advanced features."
+        ]
+    },
+    {
+        "tag": "model_y_vs_mach_e",
+        "patterns": [
+            "Tesla Model Y vs Ford Mustang Mach-E comparison","compare Tesla Model Y vs Ford Mustang Mach-E ","compare Ford Mustang Mach-E vs Tesla Model Y",
+            "How does the Tesla Model Y compare to the Ford Mustang Mach-E?",
+            "Model Y vs Mach-E","Mach-E vs Model Y"
+        ],
+        "responses": [
+            "The Tesla Model Y has a range of ~450-530 km and is known for its performance and technology. The Ford Mustang Mach-E offers a range of ~400-500 km and combines legacy brand trust with EV innovation."
+        ]
+    },
+    {
+        "tag": "id4_vs_ioniq5",
+        "patterns": [
+            "Differences between Volkswagen ID.4 and Hyundai Ioniq 5.",
+            "Compare Volkswagen ID.4 and Hyundai Ioniq 5.","Compare Hyundai Ioniq 5 and Volkswagen ID.4",
+            "ID.4 vs Ioniq 5","Ioniq 5 vs ID.4"
+        ],
+        "responses": [
+            "The Volkswagen ID.4 provides a range of ~400-520 km and is praised for its practicality. The Hyundai Ioniq 5 offers a similar range (~480 km) with a futuristic design and advanced tech."
+        ]
+    },
+    {
+        "tag": "zoe_vs_leaf",
+        "patterns": [
+            "How does Renault Zoe compare to Nissan Leaf?","which is better nissan leaf or renault zoe",
+            "which is better Renault Zoe or Nissan Leaf","compare Renault Zoe vs Nissan Leaf",
+            "Zoe vs Leaf","compare nissan leaf or renault zoe","leaf or renault zoe"
+        ],
+        "responses": [
+            "The Renault Zoe has a range of ~395 km and is suitable for city driving. The Nissan Leaf offers a range of ~240-360 km and is known for its reliability and affordability."
+        ]
+    },
+    {
+        "tag": "mg_vs_tata",
+        "patterns": [
+            "which is better MG ZS EV vs Tata Nexon EV","which is better tata nexon ev vs mg zs ev",
+            "Compare MG ZS EV and Tata Nexon EV","Compare tata nexon ev vs mg zs ev",
+            "ZS EV vs Nexon EV","Nexon EV vs ZS EV"
+        ],
+        "responses": [
+            "The MG ZS EV offers a range of ~320-400 km and supports faster charging. The Tata Nexon EV provides a range of ~312 km and is more affordable, making it a popular choice in India."
+        ]
+    },
+    {
+        "tag": "model3_vs_ioniq5",
+        "patterns": [
+            "Compare Tesla Model 3 and Hyundai Ioniq 5.",
+            "compare Hyundai Ioniq 5 vs Tesla Model 3",
+            "Model 3 vs Ioniq 5","ioniq 5 vs model 3"
+        ],
+        "responses": [
+            "The Tesla Model 3 offers a longer range (~430-570 km) and advanced technology compared to the Hyundai Ioniq 5 (~480 km). However, the Ioniq 5 stands out with its futuristic design and spacious interior."
+        ]
+    },
+    {"tag": "fallback",
+    "patterns": [],
+    "responses": ["Sorry, I didn't catch that. Could you clarify?"]},
+    {
+        "tag": "ev6_vs_model_y",
+        "patterns": [
+            "Which is better Kia EV6 or Tesla Model Y?",
+            "Compare Kia EV6 and Tesla Model Y","Compare Tesla Model Y and Kia EV6",
+            "EV6 vs Model Y","model y vs ev6"
+        ],
+        "responses": [
+            "The Kia EV6 offers a range of ~480-500 km, slightly edging out the Tesla Model Y's ~450-530 km. Both are excellent choices, but the EV6 provides a more modern design."
+        ]
+    },
+    {
+        "tag": "mach_e_vs_id4",
+        "patterns": [
+            "compare Ford Mustang Mach-E and Volkswagen ID.4.","compare volkswagen id.4 vs ford mustang mach-e",
+            "Which is better Ford Mustang Mach-E or Volkswagen ID.4","Which is better Volkswagen ID.4 or Ford Mustang Mach-E",
+            "Mach-E vs ID.4","id.4 vs mach-e"
+        ],
+        "responses": [
+            "The Ford Mustang Mach-E and Volkswagen ID.4 have comparable charging times, with both supporting fast-charging capabilities that can replenish the battery to 80% in approximately 30-45 minutes."
+        ]
+    },
+    {
+        "tag": "model3_vs_ev6",
+        "patterns": [
+            "compare Tesla Model 3 and Kia EV6",
+            "Which is better Tesla Model 3 or Kia EV6","which is better kia ev6 vs tesla model 3",
+            "Model 3 vs EV6","ev6 vs model 3"
+        ],
+        "responses": [
+            "The Tesla Model 3 is known for its rapid acceleration and sporty handling, while the Kia EV6 offers impressive performance with a focus on comfort and modern design."
+        ]
+    },    {
+      "tag": "kona_electric_2024",
+      "patterns": [
+          "Tell me about Kona Electric 2024", "kona electric 2024",
+          "What is the range of Kona Electric 2024?",
+          "What are the features of Kona Electric 2024?"
+      ],
+      "responses": [
+          "name: Kona Electric 2024\nbattery_range: 400-450 km\ncharging_infrastructure: Home and fast charging stations\ncharging_time: 7-8 hours (home) 45 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 6.9 seconds\nfeatures_technology: Advanced infotainment, regenerative braking, driver assistance features\nsize_design: Compact SUV with a modern look\ninsurance_costs: Moderate\nmanufacturer_support: Extensive service network"
+      ]
+  },
+  {
+      "tag": "rivian_r1t",
+      "patterns": [
+          "Tell me about Rivian R1T", "rivian r1t",
+          "What is the range of Rivian R1T?",
+          "What are the features of Rivian R1T?"
+      ],
+      "responses": [
+          "name: Rivian R1T\nbattery_range: 480-640 km\ncharging_infrastructure: Home charging, Rivian Adventure Network\ncharging_time: 8-10 hours (home) 30 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 3.0 seconds\nfeatures_technology: Adventure-focused technology, quad-motor powertrain, adaptive air suspension\nsize_design: Electric pickup truck with rugged design\ninsurance_costs: High\nmanufacturer_support: Limited service network"
+      ]
+  },
+  {
+      "tag": "din_l",
+      "patterns": [
+          "Tell me about Din L", "din l",
+          "What is the range of Din L?",
+          "What are the features of Din L?"
+      ],
+      "responses": [
+          "name: Din L\nbattery_range: 300-350 km\ncharging_infrastructure: Home and fast charging\ncharging_time: 8 hours (home) 50 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth performance for city driving\nfeatures_technology: Basic infotainment, regenerative braking\nsize_design: Compact electric car\ninsurance_costs: Low\nmanufacturer_support: Limited"
+      ]
+  },
+  {
+      "tag": "seekr_001",
+      "patterns": [
+          "Tell me about Seekr 001", "seekr 001",
+          "What is the range of Seekr 001?",
+          "What are the features of Seekr 001?"
+      ],
+      "responses": [
+          "name: Seekr 001\nbattery_range: 500-550 km\ncharging_infrastructure: Home charging, fast charging\ncharging_time: 8 hours (home) 30 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 4.2 seconds\nfeatures_technology: Advanced technology suite, over-the-air updates, autonomous features\nsize_design: Sleek electric sedan\ninsurance_costs: Moderate\nmanufacturer_support: Limited"
+      ]
+  },
+  {
+      "tag": "xiaomi_su7",
+      "patterns": [
+          "Tell me about Xiaomi SU7", "xiaomi su7",
+          "What is the range of Xiaomi SU7?",
+          "What are the features of Xiaomi SU7?"
+      ],
+      "responses": [
+          "name: Xiaomi SU7\nbattery_range: 450-500 km\ncharging_infrastructure: Home and public charging\ncharging_time: 8 hours (home) 40 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 6.5 seconds\nfeatures_technology: Advanced infotainment, autonomous driving features\nsize_design: Modern SUV with sleek design\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network"
+      ]
+  },
+  {
+      "tag": "byd_dolphin",
+      "patterns": [
+          "Tell me about BYD Dolphin", "byd dolphin",
+          "What is the range of BYD Dolphin?",
+          "What are the features of BYD Dolphin?"
+      ],
+      "responses": [
+          "name: BYD Dolphin\nbattery_range: 300-350 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 6-8 hours (home) 50 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth acceleration and decent range\nfeatures_technology: Advanced infotainment, autonomous driving aids\nsize_design: Compact hatchback with a modern design\ninsurance_costs: Low to moderate\nmanufacturer_support: Limited service network in India"
+      ]
+  },
+  {
+      "tag": "volkswagen_id3",
+      "patterns": [
+          "Tell me about Volkswagen ID.3", "volkswagen id.3",
+          "What is the range of Volkswagen ID.3?",
+          "What are the features of Volkswagen ID.3?"
+      ],
+      "responses": [
+          "name: Volkswagen ID.3\nbattery_range: 350-450 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 35 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 7.3 seconds\nfeatures_technology: 10-inch infotainment, adaptive cruise control, over-the-air updates\nsize_design: Compact hatchback with modern design\ninsurance_costs: Moderate\nmanufacturer_support: Extensive service network"
+      ]
+  },
+  {
+      "tag": "volvo_ex30",
+      "patterns": [
+          "Tell me about Volvo EX30", "volvo ex30",
+          "What is the range of Volvo EX30?",
+          "What are the features of Volvo EX30?"
+      ],
+      "responses": [
+          "name: Volvo EX30\nbattery_range: 400-450 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 35 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 5.4 seconds\nfeatures_technology: Advanced safety features, driver assistance, premium interior\nsize_design: Compact luxury SUV\ninsurance_costs: Moderate\nmanufacturer_support: Extensive service network"
+      ]
+  },{
+  "tag": "byd_yuan_plus",
+  "patterns": [
+      "Tell me about BYD Yuan Plus", "byd yuan plus",
+      "What is the range of BYD Yuan Plus?",
+      "What are the features of BYD Yuan Plus?"
+  ],
+  "responses": [
+      "name: BYD Yuan Plus\nbattery_range: 430-510 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 45 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 7.3 seconds\nfeatures_technology: 12.8-inch touchscreen, driver assistance features, regenerative braking\nsize_design: Compact SUV with modern design\ninsurance_costs: Moderate\nmanufacturer_support: Extensive service network in some regions"
+  ]
+},
+{
+          "tag": "tesla_model_3",
+          "patterns": [
+            "Tell me about Tesla Model 3","tesla model 3",
+            "What is the range of Tesla Model 3?",
+            "What are the features of Tesla Model 3?"
+          ],
+          "responses": [
+            "name: Tesla Model 3\nbattery_range: 430-570 km\ncharging_infrastructure: Tesla Supercharger network and home charging\ncharging_time: 7-8 hours (home) 30-40 minutes (Supercharger)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 3.1 seconds (Performance trim)\nfeatures_technology: Autopilot, over-the-air updates, premium interior\nenvironmental_impact: Zero emissions, renewable energy-compatible charging\nsize_design: Compact sedan with a minimalist design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate to high\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "tesla_model_y",
+          "patterns": [
+            "Tell me about Tesla Model Y","tesla model y",
+            "What is the range of Tesla Model Y?",
+            "What are the features of Tesla Model Y?"
+          ],
+          "responses": [
+            "name: Tesla Model Y\nbattery_range: 455-525 km\ncharging_infrastructure: Tesla Supercharger network and home charging\ncharging_time: 8-10 hours (home) 30-40 minutes (Supercharger)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 3.7 seconds (Performance trim)\nfeatures_technology: Spacious interior, Autopilot, over-the-air updates, advanced infotainment\nenvironmental_impact: Zero emissions, renewable energy-compatible charging\nsize_design: SUV with up to 7 seats and minimalist design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate to high\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "nissan_leaf",
+          "patterns": [
+            "Tell me about Nissan Leaf","nissa leaf",
+            "What is the range of Nissan Leaf?",
+            "What are the features of Nissan Leaf?"
+          ],
+          "responses": [
+            "name: Nissan Leaf\nbattery_range: 240-360 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 40-60 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance costs\nperformance: 0-100 km/h in 7.9 seconds\nfeatures_technology: e-Pedal, ProPILOT Assist, advanced safety features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact hatchback with spacious interior\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low to moderate\nmanufacturer_support: Widely available in India"
+          ]
+        },
+        {
+          "tag": "hyundai_kona_electric",
+          "patterns": [
+            "Tell me about Hyundai Kona Electric","hyundai kona",
+            "What is the range of Hyundai Kona Electric?",
+            "What are the features of Hyundai Kona Electric?"
+          ],
+          "responses": [
+            "name: Hyundai Kona Electric\nbattery_range: 400-480 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 54 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: Smooth performance with excellent handling\nfeatures_technology: 10.25-inch touchscreen, wireless charging, regenerative braking\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact SUV with modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "kia_ev6",
+          "patterns": [
+            "Tell me about Kia EV6","kia ev6",
+            "What is the range of Kia EV6?",
+            "What are the features of Kia EV6?"
+          ],
+          "responses": [
+            "name: Kia EV6\nbattery_range: 480-500 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 18-22 hours (home) 18 minutes (fast charging 80%)\nbattery_life_warranty: 7 years\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 5.2 seconds\nfeatures_technology: Advanced touchscreen, regenerative braking, autonomous aids\nenvironmental_impact: Zero emissions, renewable energy-compatible charging\nsize_design: Stylish SUV with futuristic design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "volkswagen_id4",
+          "patterns": [
+            "Tell me about Volkswagen ID.4","volkswagen id.4",
+            "What is the range of Volkswagen ID.4?",
+            "What are the features of Volkswagen ID.4?"
+          ],
+          "responses": [
+            "name: Volkswagen ID.4\nbattery_range: 400-520 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 8 hours (home) 38 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: Smooth acceleration with great handling\nfeatures_technology: 12-inch touchscreen, adaptive cruise control, augmented reality head-up display\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Practical SUV with modern technology\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "mg_zs_ev",
+          "patterns": [
+            "Tell me about MG ZS EV","mg zs ev",
+            "What is the range of MG ZS EV?",
+            "What are the features of MG ZS EV?"
+          ],
+          "responses": [
+            "name: MG ZS EV\nbattery_range: 419 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 6-8 hours (home) 50 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, affordable maintenance\nperformance: 0-100 km/h in 8.5 seconds\nfeatures_technology: 10.1-inch touchscreen, connected car features, parking assist\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact SUV with modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Extensive service network in India"
+          ]
+        },
+        {
+          "tag": "byd_dolphin",
+          "patterns": [
+            "Tell me about BYD Dolphin","byd dolphin",
+            "What is the range of BYD Dolphin?",
+            "What are the features of BYD Dolphin?"
+          ],
+          "responses": [
+            "name: BYD Dolphin\nbattery_range: 300-350 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 6-8 hours (home) 50 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth acceleration and decent range\nfeatures_technology: Advanced infotainment, autonomous driving aids\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact hatchback with a modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low to moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "tata_nexon_ev",
+          "patterns": [
+            "Tell me about Tata Nexon EV","tata nexon ev",
+            "What is the range of Tata Nexon EV?",
+            "What are the features of Tata Nexon EV?"
+          ],
+          "responses": [
+            "name: Tata Nexon EV\nbattery_range: 312-437 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable initial cost, low maintenance\nperformance: 0-100 km/h in 9.9 seconds\nfeatures_technology: 7-inch touchscreen, connected car features, regenerative braking\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact SUV with stylish design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low to moderate\nmanufacturer_support: Extensive service network in India"
+          ]
+        },
+        {
+          "tag": "renault_zoe",
+          "patterns": [
+            "Tell me about Renault Zoe","renault zoe",
+            "What is the range of Renault Zoe?",
+            "What are the features of Renault Zoe?"
+          ],
+          "responses": [
+            "name: Renault Zoe\nbattery_range: 300-400 km\ncharging_infrastructure: Home charging, public charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth acceleration\nfeatures_technology: 7-inch touchscreen, autonomous driving features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact hatchback with modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "wuling_hongguang_mini_ev",
+          "patterns": [
+            "Tell me about Wuling Hongguang Mini EV","wuling hongguang mini ev",
+            "What is the range of Wuling Hongguang Mini EV?",
+            "What are the features of Wuling Hongguang Mini EV?"
+          ],
+          "responses": [
+            "name: Wuling Hongguang Mini EV\nbattery_range: 120-170 km\ncharging_infrastructure: Home charging\ncharging_time: 6-8 hours (home)\nbattery_life_warranty: 8 years or 100,000 km\ntotal_cost_of_ownership: Very affordable\nperformance: Basic performance, ideal for city driving\nfeatures_technology: Basic infotainment system, manual controls\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Micro car, compact and simple design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "hyundai_ioniq_5",
+          "patterns": [
+            "Tell me about Hyundai Ioniq 5","hyundai ioniq 5",
+            "What is the range of Hyundai Ioniq 5?",
+            "What are the features of Hyundai Ioniq 5?"
+          ],
+          "responses": [
+            "name: Hyundai Ioniq 5\nbattery_range: 480-600 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 18-22 hours (home) 18 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 5.2 seconds\nfeatures_technology: 12.3-inch touchscreen, autonomous driving features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: SUV with futuristic design and spacious interior\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "ford_mustang_mach_e",
+          "patterns": [
+            "Tell me about Ford Mustang Mach-E","ford mustang mach e",
+            "What is the range of Ford Mustang Mach-E?",
+            "What are the features of Ford Mustang Mach-E?"
+          ],
+          "responses": [
+            "name: Ford Mustang Mach-E\nbattery_range: 400-490 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 8-10 hours (home) 38 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: High initial cost, low maintenance\nperformance: 0-100 km/h in 5.1 seconds\nfeatures_technology: 15.5-inch touchscreen, autonomous driving aids\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Stylish SUV with Mustang heritage\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate to high\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "byd_atto_3",
+          "patterns": [
+            "Tell me about BYD Atto 3","byd atto 3",
+            "What is the range of BYD Atto 3?",
+            "What are the features of BYD Atto 3?"
+          ],
+          "responses": [
+            "name: BYD Atto 3\nbattery_range: 400-480 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 8-10 hours (home) 50 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 7.3 seconds\nfeatures_technology: 12.8-inch touchscreen, autonomous driving features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Modern SUV design with futuristic touches\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "tata_tiago_ev",
+          "patterns": [
+            "Tell me about Tata Tiago EV","tta tiago ev",
+            "What is the range of Tata Tiago EV?",
+            "What are the features of Tata Tiago EV?"
+          ],
+          "responses": [
+            "name: Tata Tiago EV\nbattery_range: 250-300 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth city driving performance\nfeatures_technology: 7-inch touchscreen, safety features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact hatchback with a modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Extensive service network in India"
+          ]
+        },
+        {
+          "tag": "tata_tigor_ev",
+          "patterns": [
+            "Tell me about Tata Tigor EV","tta tigor ev",
+            "What is the range of Tata Tigor EV?",
+            "What are the features of Tata Tigor EV?"
+          ],
+          "responses": [
+            "name: Tata Tigor EV\nbattery_range: 250-300 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth performance with decent city range\nfeatures_technology: 7-inch touchscreen, connected car features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact sedan with a stylish design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Extensive service network in India"
+          ]
+        },
+        {
+          "tag": "mahindra_xuv400",
+          "patterns": [
+            "Tell me about Mahindra XUV400","mahindra xuv400",
+            "What is the range of Mahindra XUV400?",
+            "What are the features of Mahindra XUV400?"
+          ],
+          "responses": [
+            "name: Mahindra XUV400\nbattery_range: 375-450 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 50 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Moderate initial cost, low maintenance\nperformance: 0-100 km/h in 8.5 seconds\nfeatures_technology: 7-inch touchscreen, connected car features, advanced safety aids\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: SUV with modern design and features\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Moderate\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "mahindra_e_verito",
+          "patterns": [
+            "Tell me about Mahindra e-Verito","mahindra e verito",
+            "What is the range of Mahindra e-Verito?",
+            "What are the features of Mahindra e-Verito?"
+          ],
+          "responses": [
+            "name: Mahindra e-Verito\nbattery_range: 140-150 km\ncharging_infrastructure: Home charging\ncharging_time: 6-8 hours (home)\nbattery_life_warranty: 8 years or 100,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Ideal for city driving\nfeatures_technology: Basic infotainment, manual controls\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Sedan with practical interior\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "mg_comet_ev",
+          "patterns": [
+            "Tell me about MG Comet EV","mg comet ev",
+            "What is the range of MG Comet EV?",
+            "What are the features of MG Comet EV?"
+          ],
+          "responses": [
+            "name: MG Comet EV\nbattery_range: 230-250 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 6-8 hours (home) 50 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth city driving performance\nfeatures_technology: Compact infotainment system, safety features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Micro car with compact design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs:Low\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "byd_e6",
+          "patterns": [
+            "Tell me about BYD e6","byd ev6",
+            "What is the range of BYD e6?",
+            "What are the features of BYD e6?"
+          ],
+          "responses": [
+            "name: BYD e6\nbattery_range: 200-250 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Practical city performance, ideal for urban use\nfeatures_technology: Basic infotainment system, manual controls\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: MPV with practical interior space\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Limited service network in India"
+          ]
+        },
+        {
+          "tag": "citroen_ec3",
+          "patterns": [
+            "Tell me about Citroën eC3","citroen ec3",
+            "What is the range of Citroën eC3?",
+            "What are the features of Citroën eC3?"
+          ],
+          "responses": [
+            "name: Citroën eC3\nbattery_range: 250-300 km\ncharging_infrastructure: Home charging, fast charging stations\ncharging_time: 7-8 hours (home) 60 minutes (fast charging 80%)\nbattery_life_warranty: 8 years or 160,000 km\ntotal_cost_of_ownership: Affordable, low maintenance\nperformance: Smooth city driving performance\nfeatures_technology: 7-inch touchscreen, connected car features\nenvironmental_impact: Zero emissions, eco-friendly driving\nsize_design: Compact hatchback with modern design\ngovernment_policies_incentives: Eligible for subsidies in some regions\ninsurance_costs: Low\nmanufacturer_support: Limited service network in India"
+          ]
+        }
       
+    
 ]
