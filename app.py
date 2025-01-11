@@ -12,7 +12,10 @@ import numpy as np
 
 ssl._create_default_https_context = ssl._create_unverified_context
 nltk.data.path.append(os.path.abspath("nltk_data"))
-nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 # Load intents from the JSON file
 file_path = os.path.abspath("./ev_intents.json")
