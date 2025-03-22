@@ -91,7 +91,7 @@ def main():
         if user_input:
 
             # Convert the user input to a string
-            user_input_str = str(user_input)
+            user_input_str = str(user_input.lower())
 
             # Get the chatbot response and confidence score
             response, confidence = chatbot(user_input_str)
